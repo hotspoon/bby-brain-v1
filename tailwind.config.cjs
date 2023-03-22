@@ -4,11 +4,10 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "1rem",
+      padding: "2rem",
       screens: {
         lg: "1124px",
-        xl: "1124px",
-        "2xl": "1124px"
+        xl: "1440px"
       }
     },
     extend: {
@@ -27,9 +26,10 @@ module.exports = {
         bby3: "#1f2126",
         bby4: "#95a1fe",
         bby5: "#feedda",
-        bby6: "#dbffb4"
+        bby6: "#dbffb4",
+        dark: "#1f2126"
       }
     }
   },
-  plugins: []
+  plugins: [require("daisyui")]
 }

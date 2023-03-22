@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -59,19 +59,19 @@
             <div class="p-5 h-[19rem]">
               <ul>
                 <li class="mb-4">
-                  <p>SHOP</p>
+                  <p class="text-xl">SHOP</p>
                 </li>
                 <li class="mb-4">
-                  <p>OUR</p>
+                  <p class="text-xl">OUR</p>
                 </li>
                 <li class="mb-4">
-                  <p>SLEEPING</p>
+                  <p class="text-xl">SLEEPING</p>
                 </li>
                 <li class="mb-4">
-                  <p>CRITTERS</p>
+                  <p class="text-xl">CRITTERS</p>
                 </li>
                 <li class="mb-4">
-                  <p>COLLECTION</p>
+                  <p class="text-xl">COLLECTION</p>
                 </li>
               </ul>
               <button class="px-5 py-2 text-white rounded-2xl bg-violet-400 hover:bg-violet-300">
@@ -89,151 +89,268 @@
         </div>
 
         <h1 class="my-10 text-2xl">Shop by Category</h1>
+
         <div
           class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-10 text-white mb-12"
         >
+          <!-- 1 -->
           <a
             href="#"
             class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
           >
-            <div class="p-4 h-[20rem] rounded-lg shadow-lg bg-bby1">
-              <p class="text-4xl text-bby2">BBY BRN</p>
+            <div class="flex flex-col justify-between p-4 h-[20rem] rounded-lg shadow-lg bg-bby1">
+              <h5 class="mb-2 text-4xl font-bold tracking-tight text-bby2">BBY BRN</h5>
+              <div class="flex flex-col justify-end h-full">
+                <p class="font-normal text-2xl text-center uppercase text-bby2">
+                  { KID WATER SETS }
+                </p>
+              </div>
             </div>
           </a>
+          <!-- 2 -->
           <a
             href="#"
             class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
           >
-            <div class="p-4 h-[20rem] rounded-lg shadow-lg bg-bby2">02</div>
+            <div class="flex flex-col justify-between p-4 h-[20rem] rounded-lg shadow-lg bg-bby2">
+              <h5 class="mb-2 text-4xl font-bold tracking-tight text-bby6">BBY BRN</h5>
+              <div class="flex flex-col justify-end h-full">
+                <p class="font-normal text-2xl text-center uppercase text-bby6">{ TOPS }</p>
+              </div>
+            </div>
           </a>
+          <!-- 3 -->
           <a
             href="#"
             class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
           >
-            <div class="p-4 h-[20rem] rounded-lg shadow-lg bg-bby3">03</div>
+            <div class="flex flex-col justify-between p-4 h-[20rem] rounded-lg shadow-lg bg-bby3">
+              <h5 class="mb-2 text-4xl font-bold tracking-tight text-bby4">BBY BRN</h5>
+              <div class="flex flex-col justify-end h-full">
+                <p class="font-normal text-2xl text-center uppercase text-bby4">{ BOTTOMS }</p>
+              </div>
+            </div>
           </a>
+          <!-- 4 -->
           <a
             href="#"
             class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
           >
-            <div class="p-4 h-[20rem] rounded-lg shadow-lg bg-bby4">04</div>
+            <div class="flex flex-col justify-between p-4 h-[20rem] rounded-lg shadow-lg bg-bby4">
+              <h5 class="mb-2 text-4xl font-bold tracking-tight text-bby5">BBY BRN</h5>
+              <div class="flex flex-col justify-end h-full">
+                <p class="font-normal text-2xl text-center uppercase text-bby5">{ Accessories }</p>
+              </div>
+            </div>
           </a>
+          <!-- 5 -->
           <a
             href="#"
             class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
           >
-            <div class="p-4 h-[20rem] rounded-lg shadow-lg bg-bby5">05</div>
+            <div class="flex flex-col justify-between p-4 h-[20rem] rounded-lg shadow-lg bg-bby5">
+              <h5 class="mb-2 text-4xl font-bold tracking-tight text-bby4">BBY BRN</h5>
+              <div class="flex flex-col justify-end h-full">
+                <p class="font-normal text-2xl text-center uppercase text-bby4">
+                  { Slings & Sleep }
+                </p>
+              </div>
+            </div>
           </a>
+          <!-- 6 -->
           <a
             href="#"
             class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
           >
-            <div class="p-4 h-[20rem] rounded-lg shadow-lg bg-bby6">06</div>
+            <div class="flex flex-col justify-between p-4 h-[20rem] rounded-lg shadow-lg bg-bby6">
+              <h5 class="mb-2 text-4xl font-bold tracking-tight text-blue-900">BBY BRN</h5>
+              <div class="flex flex-col justify-end h-full">
+                <p class="font-normal text-2xl text-center uppercase text-blue-900">
+                  { The Cloud Shoe }
+                </p>
+              </div>
+            </div>
           </a>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-10">
-          <!-- product card -->
+        <div class="grid grid-cols-12 gap-10 my-24">
+          <div class="col-span-9">
+            <img
+              src="./public/my-cat-sleeping.jpg"
+              alt="cat sleep"
+              class="float-right object-contain w-auto h-auto"
+            />
+          </div>
+          <div class="col-span-3">
+            <h5 class="mb-2 text-4xl font-bold tracking-tight text-dark uppercase">The Cloud</h5>
+            <p>Take a walk on the soft side in our signature Cloud Shoe</p>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-10 text-white my-24"
+        >
+          <!-- 1 -->
           <a
-            href="https://www.kindacode.com"
+            href="#"
             class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
           >
-            <img
-              src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png"
-              alt="Fiction Product"
-              class="h-36 object-cover rounded-tl-md rounded-tr-md"
-            />
-
-            <div class="px-3 py-2">
-              <h1 class="font-semibold">Product One</h1>
-              <p class="text-sm">$69.69</p>
+            <div class="flex flex-col justify-between p-4 h-[20rem] rounded-lg shadow-lg bg-bby1">
+              <h5 class="mb-2 text-4xl font-bold tracking-tight text-bby2">BBY BRN</h5>
+              <div class="flex flex-col justify-end h-full">
+                <p class="font-normal text-2xl text-center uppercase text-bby2">
+                  { KID WATER SETS }
+                </p>
+              </div>
             </div>
           </a>
-
-          <!-- product card -->
+          <!-- 2 -->
           <a
-            href="https://www.kindacode.com"
+            href="#"
             class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
           >
-            <img
-              src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png"
-              alt="Fiction Product"
-              class="h-36 object-cover rounded-tl-md rounded-tr-md"
-            />
-
-            <div class="px-3 py-2">
-              <h1 class="font-semibold">Product Two</h1>
-              <p class="text-sm">$69.69</p>
+            <div class="flex flex-col justify-between p-4 h-[20rem] rounded-lg shadow-lg bg-bby2">
+              <h5 class="mb-2 text-4xl font-bold tracking-tight text-bby6">BBY BRN</h5>
+              <div class="flex flex-col justify-end h-full">
+                <p class="font-normal text-2xl text-center uppercase text-bby6">{ TOPS }</p>
+              </div>
             </div>
           </a>
-
-          <!-- product card -->
+          <!-- 3 -->
           <a
-            href="https://www.kindacode.com"
+            href="#"
             class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
           >
-            <img
-              src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png"
-              alt="Fiction Product"
-              class="h-36 object-cover rounded-tl-md rounded-tr-md"
-            />
-
-            <div class="px-3 py-2">
-              <h1 class="font-semibold">Product Three</h1>
-              <p class="text-sm">$69.69</p>
+            <div class="flex flex-col justify-between p-4 h-[20rem] rounded-lg shadow-lg bg-bby3">
+              <h5 class="mb-2 text-4xl font-bold tracking-tight text-bby4">BBY BRN</h5>
+              <div class="flex flex-col justify-end h-full">
+                <p class="font-normal text-2xl text-center uppercase text-bby4">{ BOTTOMS }</p>
+              </div>
             </div>
           </a>
+        </div>
 
-          <!-- product card -->
-          <a
-            href="https://www.kindacode.com"
-            class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
-          >
+        <div class="grid grid-cols-12 gap-10 my-24">
+          <div class="col-span-3">
+            <h5 class="mb-2 text-4xl font-bold tracking-tight text-dark uppercase">
+              The NEW SLING
+            </h5>
+            <p>
+              BBY Carrying is an ancient practice proven to help with BBY's development connecting
+              bond between parent and identity
+            </p>
+          </div>
+          <div class="col-span-9">
             <img
-              src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png"
-              alt="Fiction Product"
-              class="h-36 object-cover rounded-tl-md rounded-tr-md"
+              src="./public/my-cat-sleeping.jpg"
+              alt="cat sleep"
+              class="float-right object-contain w-auto h-auto"
             />
+          </div>
+        </div>
+        <!-- footer -->
+        <!-- endfooter -->
+      </div>
+      <!-- end container -->
+      <div class="bg-dark">
+        <div class="container">
+          <footer class="grid grid-cols-12 gap-10 pt-24 pb-12 text-white">
+            <div class="col-span-6">
+              <p class="mb-10">JOIN BBY BRN & MAILING LIST</p>
+              <p class="mb-10">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque inventore impedit
+                voluptates distinctio nihil! Nihil vitae repellat fugit repudiandae fugiat?
+              </p>
+              <div class="form-control w-full max-w-xs mb-5">
+                <label class="label">
+                  <span class="label-text text-white">Email Address</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder=""
+                  class="input input-bordered w-full max-w-xs bg-gray-600 rounded-full"
+                />
+              </div>
 
-            <div class="px-3 py-2">
-              <h1 class="font-semibold">Product Four</h1>
-              <p class="text-sm">$69.69</p>
+              <div class="flex items-center mb-5">
+                <a
+                  class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  href="#"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a
+                  class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  href="#"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a
+                  class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  href="#"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a
+                  class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  href="#"
+                >
+                  <i class="fa-brands fa-pinterest"></i>
+                </a>
+              </div>
             </div>
-          </a>
-
-          <!-- product card -->
-          <a
-            href="https://www.kindacode.com"
-            class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
-          >
-            <img
-              src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png"
-              alt="Fiction Product"
-              class="h-36 object-cover rounded-tl-md rounded-tr-md"
-            />
-
-            <div class="px-3 py-2">
-              <h1 class="font-semibold">Product Five</h1>
-              <p class="text-sm">$69.69</p>
+            <div class="col-span-3">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight">BBY BRAIN</h5>
+              <ul class="parent-footer">
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Sustainibility</a>
+                </li>
+                <li>
+                  <a href="#">Diversity and Inclusion</a>
+                </li>
+                <li>
+                  <a href="#">Gift Card</a>
+                </li>
+              </ul>
             </div>
-          </a>
-
-          <!-- product card -->
-          <a
-            href="https://www.kindacode.com"
-            class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md"
-          >
-            <img
-              src=" https://www.kindacode.com/wp-content/uploads/2022/07/kindacode-example.png"
-              alt="Fiction Product"
-              class="h-36 object-cover rounded-tl-md rounded-tr-md"
-            />
-
-            <div class="px-3 py-2">
-              <h1 class="font-semibold">Product Six</h1>
-              <p class="text-sm">$69.69</p>
+            <div class="col-span-3">
+              <ul class="parent-footer">
+                <li>
+                  <a href="#">GET Help</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#">Size Guide</a>
+                </li>
+                <li>
+                  <a href="#">Returns & Exchange</a>
+                </li>
+                <li>
+                  <a href="#">Payment & Security</a>
+                </li>
+                <li>
+                  <a href="#">Order Tracking</a>
+                </li>
+                <li>
+                  <a href="#">Special Orders</a>
+                </li>
+                <li>
+                  <a href="#">Promotion Details</a>
+                </li>
+                <li>
+                  <a href="#">Our Services</a>
+                </li>
+                <li>
+                  <a href="#">Send us Feedback</a>
+                </li>
+              </ul>
             </div>
-          </a>
+          </footer>
         </div>
       </div>
     </div>
